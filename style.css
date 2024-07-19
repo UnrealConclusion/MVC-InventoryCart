@@ -1,3 +1,28 @@
+body {
+    display: flex;
+    justify-content: center;
+}
+
+#app {
+    width: 80%;
+    border: solid;
+    border-radius: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.inventory-container {
+    display: grid;
+    grid-auto-flow: row;
+    text-align: center;    
+}
+
+.cart-container {
+    display: grid;
+    grid-auto-flow: row;
+    text-align: center;
+}
+
 li {
     list-style: none;
 }
